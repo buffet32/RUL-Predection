@@ -1,0 +1,49 @@
+{
+  "model_type": "RandomForestRegressor",
+  "model_version": "2.0",
+  "training_date": "2026-09-11T22:19:54.512876",
+  "training_dataset": "NASA C-MAPSS FD001",
+  "features": [
+    "setting_1",
+    "setting_2",
+    "setting_3",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "preprocessing": [
+    "StandardScaler normalization"
+  ],
+  "hyperparameters": {
+    "n_estimators": 100,
+    "max_depth": 15,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "random_state": 42
+  },
+  "metrics": {
+    "train_rmse": 34.4942608219936,
+    "train_mae": 26.504417516256698,
+    "train_r2": 0.8230986181670088,
+    "test_rmse": 56.38273942471561,
+    "test_mae": 44.60501094014002,
+    "test_r2": 0.49618527138687396
+  },
+  "health_score": {
+    "method": "linear_scaling",
+    "max_rul": 200,
+    "range": "0-100"
+  }
+}

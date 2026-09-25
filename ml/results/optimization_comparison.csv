@@ -1,0 +1,3 @@
+Model,Hyperparameters,Train RMSE,Validation RMSE,Validation MAE,Validation R²,Best CV RMSE
+Random Forest Baseline (Deployment-Safe),"Default (n_estimators=100, max_depth=15, etc.)",28.57962484102483,41.81736944519648,31.68936752441206,0.62161691425846,N/A
+Random Forest Optimized (Deployment-Safe),"Optimized (n_estimators=77, max_depth=9, etc.)",N/A (CV only),41.79909314910572,31.717317161940084,0.6219475869049915,41.439054837365845

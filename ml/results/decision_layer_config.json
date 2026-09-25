@@ -1,0 +1,9 @@
+{
+  "safety_margin_cycles": 49,
+  "thresholds": {
+    "critical": 20,
+    "maintenance": 50,
+    "monitor": 100
+  },
+  "health_score_max_rul": 200
+}

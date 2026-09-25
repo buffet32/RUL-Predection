@@ -1,0 +1,27 @@
+{
+  "validation_rul": {
+    "count": 3170,
+    "mean": 109.10694006309149,
+    "std": 67.9815171283962,
+    "min": 0.0,
+    "max": 286.0,
+    "median": 105.0,
+    "p25": 52.0,
+    "p75": 159.0,
+    "is_capped": false
+  },
+  "official_test_rul": {
+    "count": 100,
+    "mean": 75.52,
+    "std": 41.555620558475596,
+    "min": 7.0,
+    "max": 145.0,
+    "median": 86.0,
+    "p25": 32.75,
+    "p75": 112.25,
+    "is_capped": false,
+    "cap_value": null
+  },
+  "variance_ratio": 0.3736610582059806,
+  "std_ratio": 0.6112782166951319
+}

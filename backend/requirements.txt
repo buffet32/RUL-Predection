@@ -1,0 +1,33 @@
+﻿# Backend Requirements for Predictive Maintenance System
+
+# Web Framework
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# Database
+sqlalchemy>=2.0.52
+psycopg2-binary>=2.9.10
+alembic>=1.12.1
+
+# Data Validation
+pydantic>=2.13.0
+pydantic-settings>=2.1.0
+
+# ML Model Loading
+joblib>=1.4.2
+numpy>=2.4.6
+pandas>=2.1.0
+scikit-learn>=1.5.2
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.3
+httpx>=0.25.1
+
+# LLM Integration
+anthropic>=0.18.1
+
+# Build tools
+setuptools>=70.0.0

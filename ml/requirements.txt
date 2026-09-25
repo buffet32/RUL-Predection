@@ -1,0 +1,20 @@
+# ML Pipeline Requirements for NASA C-MAPSS FD001 RUL Prediction
+# Python 3.8+
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Model serialization
+joblib>=1.3.0
+
+# Optional: for reproducibility
+# python-dotenv>=1.0.0

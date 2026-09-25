@@ -1,0 +1,14 @@
+{
+  "model": "Random Forest Optimized",
+  "test_set": "Official FD001 Test Set",
+  "metrics": {
+    "RMSE": 31.73480152309101,
+    "MAE": 23.391017011398937,
+    "R2": 0.4168073676727069
+  },
+  "overestimation_rate": 0.82,
+  "underestimation_rate": 0.18,
+  "n_engines": 100,
+  "safety_margin": 49,
+  "prediction_method": "Last cycle of each test engine"
+}
